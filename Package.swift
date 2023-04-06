@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "mpos_ui",
-                    url:"https://artifactory.trusted.visa.com:443/mpos-releases/io/payworks/mpos.ios.ui/2.59.0/mpos.ios.ui-2.59.0.zip",
+                    url:"https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/2.59.0/mpos.ios.ui-2.59.0.zip",
                     checksum: "0f448275474690351e06a77468032eceb2719cc48ff408578969fecc415ef070"
             ),
     ]
