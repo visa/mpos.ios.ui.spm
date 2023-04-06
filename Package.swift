@@ -8,7 +8,8 @@ import PackageDescription
 let package = Package(
     name: "mpos_ui",
     platforms: [
-        .iOS(.v15)],
+        .iOS(.v15)
+       ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(name: "mpos_ui",
@@ -17,8 +18,9 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "mpos_ui",
-                    url: "default_URL",
-                    checksum: "default_checksum"
+                    url:"https://artifactory.trusted.visa.com:443/mpos-releases/io/payworks/mpos.ios.ui/2.59.0/mpos.ios.ui-2.59.0.zip",
+                    checksum: "0f448275474690351e06a77468032eceb2719cc48ff408578969fecc415ef070"
             ),
     ]
 )
+
