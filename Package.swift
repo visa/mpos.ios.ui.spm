@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "mpos_ui",
-                    url:"https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/2.63.0/mpos.ios.ui-2.63.0.zip",
-                    checksum: "52dbe5c316d7179c73614e0674b1ee8489e7e1c7515b93106575ee6c17e07ae1"
+                    url:"https://repo.visa.com/mpos-releases/io/payworks/mpos.ios.ui/2.64.0/mpos.ios.ui-2.64.0.zip",
+                    checksum: "188c496b972752427563a86d2f6d844901d12ebbc773dcf3b4bd5367d7159b65"
             ),
     ]
 )
